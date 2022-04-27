@@ -1,0 +1,47 @@
+$crazy-green: #04fabb;
+
+
+
+.crazy-shadow {
+    box-shadow: 15px 15px 15px black;
+}
+
+.fondo-primario {
+    background-color: $crazy-green;
+}
+
+.rights {
+    color: $crazy-green;
+}
+
+
+
+
+.header-color {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+}
+
+.footer-color{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+/* MAP */
+$colors: (
+ whatsapp: #00bb2d,
+ facebook:  #3a5795,
+ instagram:  #DD2A7B,
+);
+
+.facebook-btn {
+    background-color: map-get($map: $colors, $key: facebook)
+}
+.whatsapp-btn {
+    background-color: map-get($map: $colors, $key: whatsapp)
+}
+.instagram-btn {
+    background-color: map-get($map: $colors, $key: instagram)
+    
+}
+

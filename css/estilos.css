@@ -1,0 +1,58 @@
+footer div a {
+  margin: 10px; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.no-margin {
+  margin: 0 !important; }
+
+/* EXTEND */
+.celular1, .celular2 {
+  background: #04fabb;
+  background: linear-gradient(90deg, #04fabb 0%, #014b4d 100%);
+  display: flex;
+  justify-content: center; }
+
+.celular2 {
+  background: #014b4d;
+  background: linear-gradient(90deg, #014b4d 0%, #04fabb 100%); }
+
+/* MIXIN */
+.facebook-btn, .instagram-btn, .whatsapp-btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+.crazy-shadow {
+  box-shadow: 15px 15px 15px black; }
+
+.fondo-primario {
+  background-color: #04fabb; }
+
+.rights {
+  color: #04fabb; }
+
+.header-color {
+  background: white;
+  background: linear-gradient(0deg, white 0%, black 100%); }
+
+.footer-color {
+  background: black;
+  background: linear-gradient(0deg, black 0%, white 100%); }
+
+/* MAP */
+.facebook-btn {
+  background-color: #3a5795; }
+
+.whatsapp-btn {
+  background-color: #00bb2d; }
+
+.instagram-btn {
+  background-color: #DD2A7B; }
+
+nav {
+  font-family: 'Roboto', sans-serif; }
+
+.fondo-imagen {
+  background-image: url(../imagenes/fondo3.png); }

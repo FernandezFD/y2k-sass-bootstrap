@@ -1,0 +1,60 @@
+footer {
+    div {
+        a {
+            margin: 10px;
+            
+        }
+    }
+}
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+/* EXTEND */
+
+$gradient-invertido-rgb: rgb(1,75,77);
+$gradient-invertido-linear: linear-gradient(90deg, rgba(1,75,77,1) 0%, rgba(4,250,187,1) 100%);
+
+
+.celular1 {
+    background: rgb(4,250,187);
+    background: linear-gradient(90deg, rgba(4,250,187,1) 0%, rgba(1,75,77,1) 100%);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.celular2 {
+    @extend .celular1;
+    background: $gradient-invertido-rgb;
+    background: $gradient-invertido-linear;
+    
+}
+
+
+
+
+/* MIXIN */
+@mixin redes-sociales {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    
+}
+
+.facebook-btn, .instagram-btn, .whatsapp-btn {
+    @include redes-sociales();
+}
+
