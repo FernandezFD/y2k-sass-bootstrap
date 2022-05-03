@@ -38,7 +38,7 @@ footer div a {
 
 .fondo-form {
   background: white;
-  background: radial-gradient(circle, white 0%, black 100%); }
+  background: radial-gradient(circle, white 0%, #00d4ff 100%); }
 
 .header-color {
   background: white;
@@ -47,6 +47,9 @@ footer div a {
 .footer-color {
   background: black;
   background: linear-gradient(0deg, black 0%, white 100%); }
+
+input, textarea {
+  background-color: #04fabb; }
 
 /* MAP */
 /* $colors: (

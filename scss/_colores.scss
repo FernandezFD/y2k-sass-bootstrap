@@ -17,7 +17,7 @@ $aqua: #00d4ff;
 
 .fondo-form {
     background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 
@@ -30,6 +30,10 @@ $aqua: #00d4ff;
     background: rgb(0,0,0);
     background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
 }
+
+input, textarea {
+    background-color : $crazy-green;
+    }
 
 /* MAP */
 /* $colors: (
