@@ -69,8 +69,9 @@ input, textarea {
     
 }
  */
-nav {
-  font-family: 'Roboto', sans-serif; }
+* {
+  /*     font-family: 'Roboto', sans-serif; */
+  font-family: 'Audiowide', cursive; }
 
 .fondo-imagen {
   background-image: url(../imagenes/fondo3.png); }
